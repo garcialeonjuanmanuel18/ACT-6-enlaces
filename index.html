@@ -1,72 +1,78 @@
 <!DOCTYPE html>
- <html>
-<head>
-    <title>Tablas</title>
-    <style> table, th, td { /* Define el borde: 1 píxel, sólido,
-color negro */ border: 1px solid black; } table { /* Une los
-bordes de las celdas para un look limpio */ border-collapse:
-collapse; } </style>
-</head>
+<html>
+    <head>
+        <title>Tablas</title>
+            <style> table, th, td { /* Define el borde: 1 píxel, sólido,
+        color negro */ border: 1px solid black; } table { /* Une los
+        bordes de las celdas para un look limpio */ border-collapse:
+        collapse; } 
+            </style>
+    </head>
 
-<body>
-<table>
-    <p>Inventario y pedidos</p>
-    <tr>
-        <th colspan="2" rowspan="2">Información del Producto</th>
-        <th colspan="3">Disponibilidad</th>
-        <th rowspan="2">Precio Unitario</th>
-    </tr>
-    <tr>
-        <th>Tienda A</th>
-        <th>Tienda B</th>
-        <th>Almacén Central</th>
-    </tr>
-     <tr>
-        <th rowspan="3">Ropa</th>
-        <th>Camisetas</th>
-        <td>100</td>
-        <td>80</td>
-        <td>450</td>
-        <td>15.00€</td>
-    </tr>
-    <tr>
-        <th>Pantalones</th>
-        <td>50</td>
-        <td>30</td>
-        <td>200</td>
-        <td>30.00€</td>
-    </tr>
-    <tr>
-        <th>Zapatillas</th>
-        <td colspan="2">Agotado en Tiendas</td>
-        <td>300</td>
-        <td>75.00€</td>
-    </tr>
-    <tr>
-        <th rowspan="2">Accesorios</th>
-        <th>Cinturones</th>
-        <td>40</td>
-        <td>0</td>
-        <td rowspan="2">Sin datos</td>
-        <td>20.00€</td>
-    </tr>
-    <tr>
-        <th>Gorras</th>
-        <td>60</td>
-        <td>15</td>
-        <td>12.00€</td>
-    </tr>
-    <tr>
-        <th colspan="5">Total de Unidades en Inventario</th>
-        <td>1340</td>
-    </tr>
-    <tr>
-        <td colspan="6">Próxima revisión de inventaro: Fin de mes</td>
-    </tr>
+    <body>
+        <table>
+            <p>Inventario y pedidos</p>
+                <thead>
+                    <tr>
+                        <th colspan="2" rowspan="2">Información del Producto</th>
+                        <th colspan="3">Disponibilidad</th>
+                        <th rowspan="2">Precio Unitario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Tienda A</th>
+                        <th>Tienda B</th>
+                        <th>Almacén Central</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Ropa</th>
+                        <th>Camisetas</th>
+                        <td>100</td>
+                        <td>80</td>
+                        <td>450</td>
+                        <td>15.00€</td>
+                    </tr>
+                    <tr>
+                        <th>Pantalones</th>
+                        <td>50</td>
+                        <td>30</td>
+                        <td>200</td>
+                        <td>30.00€</td>
+                    </tr>
+                    <tr>
+                        <th>Zapatillas</th>
+                        <td colspan="2">Agotado en Tiendas</td>
+                        <td>300</td>
+                        <td>75.00€</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Accesorios</th>
+                        <th>Cinturones</th>
+                        <td>40</td>
+                        <td>0</td>
+                        <td rowspan="2">Sin datos</td>
+                        <td>20.00€</td>
+                    </tr>
+                    <tr>
+                        <th>Gorras</th>
+                        <td>60</td>
+                        <td>15</td>
+                        <td>12.00€</td>
+                    </tr>
+                    <tr>
+                        <th colspan="5">Total de Unidades en Inventario</th>
+                        <td>1340</td>
+                    </tr>
+            </tbody>
+            <tfoot>
+                    <tr>
+                        <td colspan="6">Próxima revisión de inventaro: Fin de mes</td>
+                    </tr>
+            </tfoot>
+        </table>
 
-</table>
-
-</body>
+    </body>
 
 
 
